@@ -2,6 +2,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter xcover4lte, $(TARGET_DEVICE)),)
+ifneq ($(filter xcover4ltexx, $(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
